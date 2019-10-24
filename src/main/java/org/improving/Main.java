@@ -1,23 +1,16 @@
 package org.improving;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        boolean loop = true;
-        while (loop) {
-            System.out.print(">");
-            var input = scanner.nextLine();
-
-            if(input.equalsIgnoreCase("Exit")){
-                System.out.println("Adieu mon ami");
-                loop = false;
-            }
-            else {
-                System.out.println(input);
-            }
-        }
+       List<String> Students = new ArrayList<>();
+       Students.addAll(Arrays.asList("Jennifer", "Paloma", "Ethan"));
+       for (String student: Students){
+           System.out.println(student);
+       }
     }
 }
