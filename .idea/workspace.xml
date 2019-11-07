@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be9b463c-3982-4548-affd-30b433ea120d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/improving/BasedEmoteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/improving/Commands/DanceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/improving/Commands/GreetCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/improving/Commands/KickCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/improving/Commands/DanceCommandTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/improving/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/improving/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/improving/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/improving/Main.class" afterDir="false" />
     </list>
@@ -16,19 +22,47 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1SekyIroAxl5KAVlSAzTBxX6fur" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.improving.Commands" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.improving.Commands" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.improving.Commands" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DanceCommandTest.Command_should_execute_with_caps">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.improving.Main" />
       <module name="October24" />
@@ -56,8 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DanceCommandTest.Command_should_execute_with_caps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="October24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.improving.Commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.improving.Commands" />
+      <option name="MAIN_CLASS_NAME" value="org.improving.Commands.DanceCommandTest" />
+      <option name="METHOD_NAME" value="Command_should_execute_with_caps" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DanceCommandTest.Command_should_execute_with_caps" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -80,7 +131,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -11,6 +11,12 @@
 <properties>
     <maven.compiler.release>11</maven.compiler.release>
 </properties>
-
+<dependencies>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.5.2</version>
+    </dependency>
+</dependencies>
 
 </project>
